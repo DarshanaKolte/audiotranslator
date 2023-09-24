@@ -1,0 +1,352 @@
+.topnav {
+    background-color:rgb(28, 67, 59);
+    overflow : hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .topnav .name{
+    text-align: center;
+    padding:20px;
+    font-size: 20px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #e6e9d2;
+    color: black;
+  }
+  .topnav i1{
+    float: right;
+    padding-right: 8px;
+  }
+  .fa-solidfa-caret-down
+  {
+    float: left;
+    padding-left: 8px;
+  }
+  
+  /* Create a right-aligned (split) link inside the navigation bar */
+  .topnav a.split {
+    float: right;
+    background-color: #167730;
+    color: rgb(244, 244, 244);
+  }
+  .topnav a.split:hover{
+    background-color: rgb(248, 248, 248);
+    color:black;
+  }
+  body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-size: cover;
+    background-position: center;
+
+}
+.sign-up-form
+{
+    width: 300px;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+}
+.sign-up-form h1
+{
+    color: #1c8adb;
+    margin-bottom: 30px;
+}
+.input-box
+{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline:none;
+}
+button
+{
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20 px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor:pointer;
+}
+.signin-btn
+{
+    background-color: #1c8adb;
+}
+.signin-btn:hover{
+    background-color: rgb(156, 193, 219);
+}
+.google-btn
+{
+    background-color: #21afde;
+}
+.google-btn:hover{
+    background-color: rgb(156, 193, 219);
+}
+a
+{
+    text-decoration: none;
+}
+hr
+{
+    margin-top: 20px;
+    width: 80%;
+}
+.or
+{
+    background: #fff;
+    width:30px;
+    margin: -19px auto 10px;
+}
+.login-form
+{
+    width: 300px;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+}
+.login-form h1
+{
+    color: #1c8adb;
+    margin-bottom: 30px;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 20px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  .dropbtn{
+    cursor: pointer;
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:#e6e9d2;
+    color:black;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding:12px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color:  rgb(161, 157, 157);
+  }
+  .fa-solidfa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+
+.container{
+    max-width: 2170px;
+    margin:auto;
+    height:100px;
+
+}
+.row{
+    display:flex;
+    
+    flex-wrap: center;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: #24262b;
+    padding: 70px ;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight:500;
+    position: relative;
+}
+.footer-col h4::before{
+    content:'';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li :not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{    
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color:#ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .social links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+.title-section {
+  text-align: center;
+  padding: 100px 0;
+  background-color: #b2e39b;
+  border-radius: 20px;
+  margin: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.title-section img {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+.title-section .curved-block {
+  background-color: #a9e2b1; /* Updated background color */
+}
+
+/* Additional styles for the "Features" section */
+.features-section {
+  text-align: center;
+  padding: 100px 0;
+  background-color: #b2e39b;
+  ; /* Background color for the "Features" section */
+  border-radius: 20px;
+  max-width: 300px;
+  margin: 0 auto;
+  max-height: 300px;
+}
+
+.features-section h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #333; /* Text color */
+  font-family: 'Arial', sans-serif; /* Font choice */
+}
+
+.feature-carousel img {
+  width: 300px; /* Set a specific width */
+  height: 300px; /* Set a specific height */
+  object-fit: cover; /* Ensure the image covers the specified dimensions */
+  border-radius: 10px; /* Added border radius */
+}
+
+
+
+
+.section {
+  height:250px;
+  padding: 30px ; /* Increased spacing */
+  text-align: center;
+  background-color: #b2e39b;
+}
+
+.block-container {
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  margin:12px 12px 12px 12px;
+ 
+}
+.block {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 60px 40px;
+  width:100%;
+  margin: 0 10px;
+  text-align: center;
+  transition: transform 0.3s; /* Added transition for transform */
+}
+
+.block:hover {
+  transform: scale(1.125); /* Apply scale on hover */
+}
+
+
+
+.block img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.block a {
+  display: block;
+  margin-top: 10px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
